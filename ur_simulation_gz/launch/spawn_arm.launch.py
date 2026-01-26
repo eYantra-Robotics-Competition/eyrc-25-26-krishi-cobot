@@ -100,7 +100,7 @@ def generate_launch_description():
                 name="ur5_gz_bridge",
                 # namespace="ur5",  # Add namespace for bridge
                 arguments=[
-                    "/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock",
+                    # "/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock",
                     "/camera/image@sensor_msgs/msg/Image@ignition.msgs.Image",
                     "/camera/depth_image@sensor_msgs/msg/Image@ignition.msgs.Image",
                     "/camera/camera_info@sensor_msgs/msg/CameraInfo@ignition.msgs.CameraInfo",

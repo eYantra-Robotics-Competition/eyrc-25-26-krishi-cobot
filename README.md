@@ -4,24 +4,9 @@ This repository contains the simulation setup for the Krishi Cobot (eYantra Robo
 
 ## Launch Commands
 
-To launch Gazebo World for Task 2A:
+To launch Gazebo World for Task 4C:
 ```bash
-ros2 launch eyantra_warehouse task2.launch.py
-```
-
-To launch Gazebo World for Task 2B:
-```bash
-ros2 launch eyantra_warehouse task2b.launch.py
-```
-
-To spawn eBot in the Gazebo world:
-```bash
-ros2 launch ebot_description spawn_ebot.launch.py
-```
-
-To spawn Arm & Camera inside Gazebo World:
-```bash
-ros2 launch ur_simulation_gz spawn_arm.launch.py
+ros2 launch eyantra_warehouse task4c.launch.py
 ```
 
 ## Workspace Structure
@@ -31,3 +16,4 @@ ros2 launch ur_simulation_gz spawn_arm.launch.py
 - `ur_description/` - Universal Robots arm description
 - `ur_simulation_gz/` - Gazebo simulation for Universal Robots arm and its controllers
 - `ur5_control/` - Control packages for UR5 arm
+- `linkattacher_msgs/` - Custom messages for link attacher

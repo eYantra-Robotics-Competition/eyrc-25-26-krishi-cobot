@@ -1,7 +1,7 @@
 # Blender 4.5.2 LTS MTL File: 'Fruit.blend'
 # www.blender.org
 
-newmtl Material.003
+newmtl Material.005
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.361304 0.323144 0.283149
@@ -11,7 +11,7 @@ Ni 1.500000
 d 1.000000
 illum 2
 
-newmtl Material.004
+newmtl Material.006
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.107022 0.396756 0.001214
